@@ -1,0 +1,84 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - cucumber > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: cucumber > lodash
+    - mock-knex > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: mock-knex > lodash
+    - rewire > eslint > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: rewire > eslint > lodash
+    - rewire > eslint > inquirer > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: rewire > eslint > inquirer > lodash
+    - rewire > eslint > table > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: rewire > eslint > table > lodash
+    - istanbul > istanbul-api > async > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: istanbul > istanbul-api > async > lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-types >
+          lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-generator >
+          lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse >
+          lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-template >
+          lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-generator >
+          babel-types > lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse >
+          babel-types > lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-template >
+          babel-types > lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-template >
+          babel-traverse > lodash
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2025-02-07T14:02:53.136Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          istanbul > istanbul-api > istanbul-lib-instrument > babel-template >
+          babel-traverse > babel-types > lodash
